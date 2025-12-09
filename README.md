@@ -1,16 +1,25 @@
-# moneyflow
+# MoneyFlow
 
-A new Flutter project.
+Simple money tracker for expenses, income, and installment records.
 
-## Getting Started
+## Features
+- Add/edit/delete expenses and income.
+- Installment support: split a total into periods, view remaining/paid, and edit whole installments.
+- Two languages (EN/ZH) with quick toggle.
+- Month summary cards and grouped transactions.
 
-This project is a starting point for a Flutter application.
+## Development
+```bash
+flutter pub get
+flutter run
+```
 
-A few resources to get you started if this is your first Flutter project:
+### Tests
+```bash
+flutter test
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Lints
+```bash
+flutter analyze
+```
